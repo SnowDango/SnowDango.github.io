@@ -1,0 +1,21 @@
+/* フッターの固定 */
+div#footer-fixed {
+    position: static;            /* フッターの固定 */
+    bottom: 0px;                /* 位置(下0px) */
+    left: 0px;                  /* 位置(左0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 140px;              /* 縦幅140px */
+}
+
+div#footer-bk {
+    background-color: lightblue;     /* 背景色(黒) */
+    padding:10px 0 20px;       /* 上10px、下20pxをあける */
+    height:110px;              /* 縦の高さ140px */
+    width:100%;                /* 横の幅を100% */
+}
+
+div#footer {
+    height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    width: 95%;              /* 横の幅970px */
+    margin: auto;              /* 中央揃え */
+}

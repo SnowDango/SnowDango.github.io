@@ -1,0 +1,51 @@
+/* ヘッダーの固定 */
+div#header-fixed {
+    position: static;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+    height: 420px;              /* 縦幅140px */
+    text-align: center;
+}
+
+div#header-bk {
+    padding:10px 0 20px;       /* 上10px、下20pxをあける */
+    height: 50vh;              /* 縦の高さ110px */
+    width:100%;                /* 横の幅を100% */
+    text-align: center;
+    background-size: contain;
+}
+
+
+div#header {
+    border: 5px solid #DDDDDD;    /* 表示領域を白枠で囲う */
+    height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    width:  95%;              /* 横の幅970px */
+    margin: auto;              /* 中央揃え */
+    background-color: #F0F0F0;
+}
+
+.table-center{
+    margin: auto;
+    padding-top: 5%;
+}
+
+
+.logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-name{
+    color: black;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    animation: SlideIn 3s;
+}
+
+.logo-subtext{
+    margin-top: -30px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+}

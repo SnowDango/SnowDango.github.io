@@ -1,0 +1,91 @@
+@import "./header.css";
+@import "./footer.css";
+
+/* CSSアニメーションの設定 */
+@keyframes SlideIn {
+    0% {
+        opacity: 0;/*初期状態では透明に*/
+        transform: translateX(-64px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* html,bodyタグの設定 */
+html, body{
+    margin: 0;         /* 余白の削除 */
+    padding: 0;        /* 余白の削除 */
+    width:100%;
+    height:100%;
+    background: white;
+    overscroll-behavior: none;
+}
+
+div#body-fixed{
+    position: static;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+
+div#body-bk {
+    padding:10px 0 20px;       /* 上10px、下20pxをあける */
+    width:100%;                /* 横の幅を100% */
+    text-align: center;
+    background-size: contain;
+    background-color: black;
+}
+
+div#body {
+    height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+    width:  95%;              /* 横の幅970px */
+    margin: auto;              /* 中央揃え */
+}
+
+.text_white{
+    color: white;
+}
+
+table.topic_table{
+    width: 100%;
+    background-color: white;
+}
+
+.table_head{
+    border: 2px solid black;
+    font-size: xx-large;
+    font-family: 'Ubuntu', cursive;
+}
+
+.table_head-bk{
+    background-color: white;
+}
+
+.introduction_head{
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+
+td.introduction{
+    width: 100%;
+    border: 2px solid black;
+}
+table.topic_table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th.introduction_data_head{
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Ubuntu', cursive;
+}
+
+td.introduction_data{
+    width: 100%;
+    word-wrap: break-spaces;
+}
