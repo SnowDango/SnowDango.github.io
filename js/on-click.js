@@ -1,7 +1,12 @@
-function clickEvents (topicNum) {
-    location.href = "./blog/index.html?id="+topicNum.toString();
+function onClickFacebook(){
+    location.href = "https://www.facebook.com/YukiOchiaiMk2/";
 }
 
-function removeTrailingSlash(url) {
-    return url
+function onClickTwitter(){
+    location.href = "https://twitter.com/snow_Dango?s=20";
 }
+
+function onClickQiita(){
+    location.href = "https://qiita.com/SnowDango";
+}
+
